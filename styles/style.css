@@ -161,9 +161,8 @@ main > section {
   margin: -150px 0 0 -100px;
   position: relative;
   z-index: 1;
-
 }
-.top-image{
+.top-image {
   z-index: 0;
 }
 .ten-year-title {
@@ -176,35 +175,50 @@ main > section {
 }
 
 /* Features you ... start*/
-
-.features-containar {
-  gap: 146px;
+.features {
+  gap: 140px;
+  /* padding: 0 50px; */
 }
-
-.features-description {
-  margin: 24px 0;
-}
-.features-item {
-  display: flex;
-  flex-direction: column;
-  width: 586px;
-  height: 982px;
-}
-
-.features-title {
-  border-left: 4px solid #ff900e;
+#features-section-title {
+  border-left: 5px solid #ff900e;
+  margin-top: 50px;
   padding-left: 20px;
 }
-
-.features-list-item {
-  padding: 30px;
-  margin-bottom: 20px;
-  background-color: #ffff;
-  box-shadow: 5px 2px 30px #cacaca;
+.features-section-description {
+  margin: 30px 0;
+  
+}
+.features-card .features-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.features-card-title{
+margin-bottom: 10px;
 }
 
-.features-list-item>h4{
-  font-size: 1.25rem;
+.features-card {
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+#experience-bage{
+  background-color: #ff900e;
+  padding: 45px 42px;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  margin-top: -120px;
+  margin-left: -100px;
+  color: white;
+}
+#experience-year{
+font-size: 4rem;
+font-weight: 700;
+}
+#experience{
+  font-size: 1.65rem;
+
 }
 
 /* responsive media query */
@@ -252,7 +266,11 @@ main > section {
     gap: 20px;
     padding: 0 15px;
   }
+
+  /* Features you will love & enjoy */
 }
+
+/* tablet device start */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .teams {
@@ -280,5 +298,12 @@ main > section {
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 50px;
+  }
+
+  .features-containar {
+    flex-direction: column;
+  }
+  .features-image {
+    padding: 20px;
   }
 }
