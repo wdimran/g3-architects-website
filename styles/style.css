@@ -186,14 +186,13 @@ main > section {
 }
 .features-section-description {
   margin: 30px 0;
-  
 }
 .features-card .features-card-title {
   font-size: 1.25rem;
   font-weight: 600;
 }
-.features-card-title{
-margin-bottom: 10px;
+.features-card-title {
+  margin-bottom: 10px;
 }
 
 .features-card {
@@ -202,7 +201,7 @@ margin-bottom: 10px;
   margin-bottom: 25px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
-#experience-bage{
+#experience-bage {
   background-color: #ff900e;
   padding: 45px 42px;
   border: none;
@@ -212,13 +211,24 @@ margin-bottom: 10px;
   margin-left: -100px;
   color: white;
 }
-#experience-year{
-font-size: 4rem;
-font-weight: 700;
+#experience-year {
+  font-size: 4rem;
+  font-weight: 700;
 }
-#experience{
+#experience {
   font-size: 1.65rem;
+}
 
+.facts-card{
+  border: 1px solid #ff900e;
+  text-align: center;
+
+}
+
+.card-containar{
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 /* responsive media query */
